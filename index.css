@@ -9,3 +9,25 @@
   display: table;
   clear: both;
 }
+.tab {
+  text-align: center;
+  
+}
+.tablinks {
+  background: rgb(25,101,178);
+  top: 10.0625rem;
+  left: 4.8125rem;
+  height: 3.5rem;
+  width: 16rem;
+  z-index: 53;
+}
+.item {
+      
+   background: rgb(25,101,178);
+  
+}
+.icon {
+  justify-content: center;
+  display: flex;
+}
+ 
