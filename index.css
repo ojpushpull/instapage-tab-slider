@@ -1,6 +1,9 @@
 .column {
   float: left;
   width: 33.33%;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
 }
 
 /* Clear floats after the columns */
@@ -14,12 +17,18 @@
   
 }
 .tablinks {
-  background: rgb(25,101,178);
-  top: 10.0625rem;
-  left: 4.8125rem;
-  height: 3.5rem;
-  width: 16rem;
-  z-index: 53;
+display: inline-block;
+  background-color: #1965B2;
+  padding: 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc;
+  border-radius: 10px;
+  font-size: 28px;
+  cursor: pointer; /* add this line */
+  margin: 5px; /* add this line */
+ 
 }
 .item {
       
