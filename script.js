@@ -19,4 +19,6 @@ function clickHandle(evt, tabName) {
 }
 
 //clicks the starting tab
-document.getElementsByClassName('tablinks')[0].click()
+window.addEventListener('load', () => {
+document.getElementById('justice1').click()
+                        })
