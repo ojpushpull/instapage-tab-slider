@@ -1,16 +1,54 @@
-.column {
-  float: left;
+<style>
+  .column {
+
   width: 33.33%;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 400;
+  color: white;
+ padding-top: 20px;
+ padding-bottom: 100%;
+  margin-bottom: -100%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+   flex-direction: column;
+    align-self: center;
+   
+    
+    
 }
 
+.slheading {
+ font-size: 28px; 
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.bdtext{
+ float: left;
+ display: flex;
+ align-items: baseline;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+
+
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  display: flex;
+  align-items: baseline;
   clear: both;
+  flex: 1;
+ 
 }
 .tab {
   text-align: center;
@@ -28,15 +66,22 @@ display: inline-block;
   font-size: 28px;
   cursor: pointer; /* add this line */
   margin: 5px; /* add this line */
+ padding: 25px 50px 25px 50px;
+}
+.tablinks:hover {
+opacity: 0.9;
+background-color: #91D8F1; 
  
 }
 .item {
-      
-   background: rgb(25,101,178);
+  margin-bottom: 10px;   
+  
   
 }
 .icon {
   justify-content: center;
   display: flex;
 }
- 
+
+
+</style>
